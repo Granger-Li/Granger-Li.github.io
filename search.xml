@@ -3,7 +3,8 @@
   <entry>
     <title>第一篇博客</title>
     <url>/2022/08/28/hello-world/</url>
-    <content><![CDATA[<h1 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h1><p>A CTFer and a AI-SECer<br><em>以出世之心，做入世之事；以圣贤之心，做平常之事。</em></p>
+    <content><![CDATA[<h1 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h1><p>A CTFer from NEBULA and a AI-SECer</p>
+<p><em>以出世之心，做入世之事；以圣贤之心，做平常之事。</em></p>
 ]]></content>
       <categories>
         <category>AboutMe</category>
