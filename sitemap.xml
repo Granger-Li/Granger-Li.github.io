@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lstarnana7mi.com/about/index.html</loc>
+    <loc>https://lstarnana7mi.com/friend/index.html</loc>
     
     <lastmod>2022-08-28</lastmod>
     
@@ -11,7 +11,16 @@
   </url>
   
   <url>
-    <loc>https://lstarnana7mi.com/2022/08/28/qwbCTF-writeup/</loc>
+    <loc>https://lstarnana7mi.com/2022/08/28/qwbCTF/</loc>
+    
+    <lastmod>2022-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lstarnana7mi.com/about/index.html</loc>
     
     <lastmod>2022-08-28</lastmod>
     
