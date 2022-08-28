@@ -6,7 +6,7 @@
   <link href="https://lstarnana7mi.com/atom.xml" rel="self"/>
   
   <link href="https://lstarnana7mi.com/"/>
-  <updated>2022-08-28T13:27:38.567Z</updated>
+  <updated>2022-08-28T13:35:43.020Z</updated>
   <id>https://lstarnana7mi.com/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>第一篇博客</title>
-    <link href="https://lstarnana7mi.com/2022/08/28/hello-world/"/>
-    <id>https://lstarnana7mi.com/2022/08/28/hello-world/</id>
-    <published>2022-08-28T13:17:45.000Z</published>
-    <updated>2022-08-28T13:27:38.567Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h1><p>A CTFer from NEBULA and a AI-SECer</p><p><em>以出世之心，做入世之事；以圣贤之心，做平常之事。</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;About-Me&quot;&gt;&lt;a href=&quot;#About-Me&quot; class=&quot;headerlink&quot; title=&quot;About Me&quot;&gt;&lt;/a&gt;About Me&lt;/h1&gt;&lt;p&gt;A CTFer from NEBULA and a AI-SECer&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;</summary>
-      
-    
-    
-    
-    <category term="AboutMe" scheme="https://lstarnana7mi.com/categories/AboutMe/"/>
-    
-    
-    <category term="AboutMe" scheme="https://lstarnana7mi.com/tags/AboutMe/"/>
-    
-  </entry>
   
   <entry>
     <title>2022强网杯线下赛WriteUp</title>

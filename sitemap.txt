@@ -1,11 +1,9 @@
+https://lstarnana7mi.com/about/index.html
 https://lstarnana7mi.com/2022/08/28/qwbCTF-writeup/
-https://lstarnana7mi.com/2022/08/28/hello-world/
 https://lstarnana7mi.com/search/index.html
 https://lstarnana7mi.com/tags/index.html
 https://lstarnana7mi.com/categories/index.html
 https://lstarnana7mi.com/
-https://lstarnana7mi.com/tags/AboutMe/
 https://lstarnana7mi.com/tags/%E5%BC%BA%E7%BD%91%E6%9D%AF/
 https://lstarnana7mi.com/tags/KOH/
-https://lstarnana7mi.com/categories/AboutMe/
 https://lstarnana7mi.com/categories/CTF/

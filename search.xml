@@ -1,59 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>第一篇博客</title>
-      <link href="/2022/08/28/hello-world/"/>
-      <url>/2022/08/28/hello-world/</url>
-      
-        <content type="html"><![CDATA[<h1 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h1><p>A CTFer from NEBULA and a AI-SECer</p><p><em>以出世之心，做入世之事；以圣贤之心，做平常之事。</em></p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>2022强网杯线下赛WriteUp</title>
+    <url>/2022/08/28/qwbCTF-writeup/</url>
+    <content><![CDATA[<h1 id="2022强网杯线下赛WriteUp"><a href="#2022强网杯线下赛WriteUp" class="headerlink" title="2022强网杯线下赛WriteUp"></a>2022强网杯线下赛WriteUp</h1>]]></content>
       <categories>
-          
-          <category> AboutMe </category>
-          
+        <category>CTF</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> AboutMe </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>2022强网杯线下赛WriteUp</title>
-      <link href="/2022/08/28/qwbCTF-writeup/"/>
-      <url>/2022/08/28/qwbCTF-writeup/</url>
-      
-        <content type="html"><![CDATA[<h1 id="2022强网杯线下赛WriteUp"><a href="#2022强网杯线下赛WriteUp" class="headerlink" title="2022强网杯线下赛WriteUp"></a>2022强网杯线下赛WriteUp</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> CTF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 强网杯 </tag>
-            
-            <tag> KOH </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>强网杯</tag>
+        <tag>KOH</tag>
+      </tags>
+  </entry>
 </search>
