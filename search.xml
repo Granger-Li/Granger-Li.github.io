@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>2022强网杯线下赛WriteUp</title>
-    <url>/2022/08/28/qwbCTF/</url>
-    <content><![CDATA[<h1 id="2022强网杯线下赛游记-amp-区块链WP"><a href="#2022强网杯线下赛游记-amp-区块链WP" class="headerlink" title="2022强网杯线下赛游记&amp;区块链WP"></a>2022强网杯线下赛游记&amp;区块链WP</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>这次强网杯初赛只拿了$40^{st}$，本以为和决赛无缘了，后来竟误打误撞进了决赛。恰好决赛时间和信息安全作品赛撞在一起，于是我便带着三位大一的同学一起参赛，也算是出乎意料的拿到了$15^{th}$。用一位学长的话来讲：“年轻人思维快，KOH打得好。”</p>
-<p>第十五名擦边进了二等奖，和雷泽，NeSE，bk（蚂蚁金服），syclover，几个顶尖战队一个奖项，可谓是“夕死可矣“（笑）。一共做了三个RW签到题和三四道KOH，便按时间顺序分享一下吧。</p>
-<h2 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h2><p>前一天晚上打了几局糖豆人，吃了几局鸡，早上起来略微有些晚。酒店的早餐还算不错（可惜炒饭太难吃了）。由于初赛排名过于靠后，分配了侧面最后一排的坐席。比赛一开始便放了两个KOH和所有的RW题。其中一个KOH（HashRSA）要求构造一段shellcode，执行后将两个数字放在数据区，然后计算shellcode的md5哈希并减去上述两个数字相乘，得到的数字越小得分越高。</p>
-<p>看到这个题，我和另一位密码手就兴奋起来了（尤其是名字上还带RSA，虽然和RSA也没什么关系）。他先写了个pow，我写了个爆破脚本。由于提交并不检查是否为有效的shellcode，写好pow随意提交了我们便拿到了第一轮的第一名（+8分）（OI爷写pow就是快！）。与此同时，我的random.randint()函数不负众望的跑出了一个很不错的结果，然后直接提交便得到了不少轮次的分数。之后似乎路就走偏了，我用一台高性能服务器不断地碰撞哈希，不断给出了更优解，但是，显而易见的是，这并不是正解，不过看到AAA，0x300R等战队也在不断枚举，毕竟是KOH嘛，就挂了一个爆破脚本让他自己跑，跑到之后自动提交，居然凭借POW写的快的优势率先拿到了100分，收获了本次线下赛唯一一面flag。</p>
-<p>由此同时，我们的misc手差不多也找到了RW题totolink的CVE尝试复现，后面又出了几个KOH，其中一个和DEF CON某年的题目差不多，要求</p>
-<h2 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h2><h2 id="区块链KOH（money）"><a href="#区块链KOH（money）" class="headerlink" title="区块链KOH（money）"></a>区块链KOH（money）</h2><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2>]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>2022强网杯线下赛WriteUp</title>
+      <link href="/2022/08/28/qwbCTF/"/>
+      <url>/2022/08/28/qwbCTF/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2022强网杯线下赛游记-amp-区块链WP"><a href="#2022强网杯线下赛游记-amp-区块链WP" class="headerlink" title="2022强网杯线下赛游记&amp;区块链WP"></a>2022强网杯线下赛游记&amp;区块链WP</h1><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>这次强网杯初赛只拿了$40^{st}$，本以为和决赛无缘了，后来竟误打误撞进了决赛。恰好决赛时间和信息安全作品赛撞在一起，于是我便带着三位大一的同学一起参赛，也算是出乎意料的拿到了$15^{th}$。用一位学长的话来讲：“年轻人思维快，KOH打得好。”</p><p>第十五名擦边进了二等奖，和雷泽，NeSE，bk（蚂蚁金服），syclover，几个顶尖战队一个奖项，可谓是“夕死可矣“（笑）。一共做了三个RW签到题和三四道KOH，便按时间顺序分享一下吧。</p><h2 id="第一天"><a href="#第一天" class="headerlink" title="第一天"></a>第一天</h2><p>前一天晚上打了几局糖豆人，吃了几局鸡，早上起来略微有些晚。酒店的早餐还算不错（可惜炒饭太难吃了）。由于初赛排名过于靠后，分配了侧面最后一排的坐席。比赛一开始便放了两个KOH和所有的RW题。其中一个KOH（HashRSA）要求构造一段shellcode，执行后将两个数字放在数据区，然后计算shellcode的md5哈希并减去上述两个数字相乘，得到的数字越小得分越高。</p><p>看到这个题，我和另一位密码手就兴奋起来了（尤其是名字上还带RSA，虽然和RSA也没什么关系）。他先写了个pow，我写了个爆破脚本。由于提交并不检查是否为有效的shellcode，写好pow随意提交了我们便拿到了第一轮的第一名（+8分）（OI爷写pow就是快！）。与此同时，我的random.randint()函数不负众望的跑出了一个很不错的结果，然后直接提交便得到了不少轮次的分数。之后似乎路就走偏了，我用一台高性能服务器不断地碰撞哈希，不断给出了更优解，但是，显而易见的是，这并不是正解，不过看到AAA，0x300R等战队也在不断枚举，毕竟是KOH嘛，就挂了一个爆破脚本让他自己跑，跑到之后自动提交，居然凭借POW写的快的优势率先拿到了100分，收获了本次线下赛唯一一面flag。</p><p>由此同时，我们的misc手差不多也找到了RW题totolink的CVE尝试复现，后面又出了几个KOH，其中一个和DEF CON某年的题目差不多，要求</p><h2 id="第二天"><a href="#第二天" class="headerlink" title="第二天"></a>第二天</h2><h2 id="区块链KOH（money）"><a href="#区块链KOH（money）" class="headerlink" title="区块链KOH（money）"></a>区块链KOH（money）</h2><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2>]]></content>
+      
+      
       <categories>
-        <category>CTF</category>
+          
+          <category> CTF </category>
+          
       </categories>
-      <tags>
-        <tag>强网杯</tag>
-        <tag>KOH</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 强网杯 </tag>
+            
+            <tag> KOH </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
