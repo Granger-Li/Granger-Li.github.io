@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lstarnana7mi.com/2022/08/28/%E5%9F%BA%E6%9C%AC%E6%8E%A5%E5%8F%A3%E8%AF%B4%E6%98%8E/</loc>
-    
-    <lastmod>2022-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://lstarnana7mi.com/2022/08/28/qwbCTF/</loc>
     
     <lastmod>2022-08-30</lastmod>
@@ -87,31 +78,10 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://lstarnana7mi.com/tags/RoboGame/</loc>
-    <lastmod>2022-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
     <loc>https://lstarnana7mi.com/categories/CTF/</loc>
-    <lastmod>2022-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lstarnana7mi.com/categories/RoboGame/</loc>
-    <lastmod>2022-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lstarnana7mi.com/categories/RoboGame/%E7%A1%AC%E4%BB%B6%E6%8E%A5%E5%8F%A3/</loc>
     <lastmod>2022-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
