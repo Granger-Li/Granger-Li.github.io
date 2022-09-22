@@ -1,4 +1,5 @@
 https://lstarnana7mi.com/2022/08/28/qwbCTF/
+https://lstarnana7mi.com/2022/09/22/%E6%80%9D%E8%80%83%E9%A2%98before0922/
 https://lstarnana7mi.com/friend/index.html
 https://lstarnana7mi.com/about/index.html
 https://lstarnana7mi.com/search/index.html
@@ -7,4 +8,7 @@ https://lstarnana7mi.com/categories/index.html
 https://lstarnana7mi.com/
 https://lstarnana7mi.com/tags/%E5%BC%BA%E7%BD%91%E6%9D%AF/
 https://lstarnana7mi.com/tags/BlockChain/
+https://lstarnana7mi.com/tags/%E6%95%B0%E8%AE%BA/
+https://lstarnana7mi.com/tags/%E8%BF%91%E4%B8%96%E4%BB%A3%E6%95%B0/
 https://lstarnana7mi.com/categories/CTF/
+https://lstarnana7mi.com/categories/%E6%95%B0%E8%AE%BA%E5%8A%A9%E6%95%99/
